@@ -8,6 +8,7 @@ use Livewire\Component;
 class Teste extends Component
 {
     public $search = 'Mayke';
+    
     public function render()
     {
         return view('livewire.teste', [
